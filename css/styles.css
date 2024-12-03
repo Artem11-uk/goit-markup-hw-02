@@ -47,6 +47,19 @@ header {
     color: #404bbf;
 }
 
+
+.list-address {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.list-address:hover {
+    color: #404bbf
+}
+
 .address {
     font-weight: 400;
         font-size: 16px;
