@@ -43,12 +43,15 @@ header {
     color: #2e2f42;
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
     color: #404bbf;
 }
 
+.contact {
+    font-style: normal;
+}
 
-.list-address {
+.link-address {
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -56,8 +59,8 @@ header {
         color: #434455;
 }
 
-.list-address:hover {
-    color: #404bbf
+.link-address:hover, .link-address:focus {
+    color: #404bbf;
 }
 
 .address {
@@ -75,7 +78,7 @@ background-color: #2e2f42;
 .title-section-button {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
@@ -88,9 +91,14 @@ background-color: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
+        cursor: pointer;
 }
 
-.title-strategy {
+.button:focus, .button:hover {
+    background-color: #404bbf;
+}
+
+.title-description {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -106,22 +114,22 @@ background-color: #2e2f42;
         color: #434455;
 }
  
+.section-team {
+    background-color: #F4F4FD;
+}
+
 .title-team {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
-.title-list-team {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+.list-team {
+    background-color: #ffffff ;
 }
 
 .description-list-team {
