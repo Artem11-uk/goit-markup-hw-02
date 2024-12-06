@@ -175,6 +175,11 @@ font-weight: 400;
     color: #434455;
 }
 
+.web-text {
+    background-color: #2e2f42;
+ }
+
+
 .logo {
     font-weight: 700;
     font-size: 18px;
@@ -202,3 +207,4 @@ font-weight: 400;
     color: #f4f4fd;
     background: #2e2f42;
 }
+
