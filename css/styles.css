@@ -130,6 +130,7 @@ background-color: #2e2f42;
 
 .list-team {
     background-color: #ffffff ;
+
 }
 
 .title-list-team {
@@ -199,7 +200,7 @@ font-weight: 700;
     color: #f4f4fd;
 }
 
-.description-text {
+.description-footer {
 font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
